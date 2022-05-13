@@ -14,41 +14,41 @@
       
       <div class="item">
       <div class="item-logo">
-        <img src="../assets/img/buy-comics-digital-comics.png" alt="">
+        <img src="../assets/img/buy-comics-merchandise.png" alt="">
       </div>
 
       <div class="item-text">
-        Digital Comics
+        DC Merchandise
       </div>
       </div>
 
       <div class="item">
       <div class="item-logo">
-        <img src="../assets/img/buy-comics-digital-comics.png" alt="">
+        <img src="../assets/img/buy-comics-subscriptions.png" alt="">
       </div>
 
       <div class="item-text">
-        Digital Comics
+        Subscription
       </div>
       </div>
 
       <div class="item">
       <div class="item-logo">
-        <img src="../assets/img/buy-comics-digital-comics.png" alt="">
+        <img src="../assets/img/buy-comics-shop-locator.png" alt="">
       </div>
 
       <div class="item-text">
-        Digital Comics
+        Comic Shop Locator
       </div>
       </div>
 
       <div class="item">
       <div class="item-logo">
-        <img src="../assets/img/buy-comics-digital-comics.png" alt="">
+        <img src="../assets/img/buy-dc-power-visa.svg" alt="">
       </div>
 
       <div class="item-text">
-        Digital Comics
+        DC Power Visa
       </div>
       </div>
 
