@@ -5,7 +5,7 @@
     <div class="menu">
       <ul v-for="(page, index) in pages" :key="`header ${index}`">
         <li><a @click="page.isActive = !page.isActive" :class="{'active' : page.isActive }" :href="page.url">{{page.name}}</a></li>
-        <div :class="{'borderBottom' : page.isActive}"></div>
+        <div class="transparent" :class="{'borderBottom' : page.isActive}"></div>
       </ul>
       
     </div>
@@ -95,10 +95,10 @@ export default {
 header{
   
   .container{
-      display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 100px;
 
   ul{
     list-style: none;
@@ -120,6 +120,11 @@ header{
       width: 90%;
       margin: 0 auto;
     }
+
+  .transparent{
+    border-bottom: 4px solid transparent;
+  }
+
   }
 
   .menu{
