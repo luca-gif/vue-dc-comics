@@ -1,33 +1,4 @@
-<template>
-  <div>
-    <headerComponent/>
-    <mainComponent :elencoFumetti="fumetti"/>
-    <sectionComponent/>
-    <footerComponents/>
-    
-</div>
-</template>
-
-<script>
-import FooterComponents from './components/FooterComponents.vue'
-import HeaderComponent from './components/HeaderComponent.vue'
-import MainComponent from './components/MainComponent.vue'
-import SectionComponent from './components/SectionComponent.vue'
-
-
-export default {
-  name: 'App',
-  components: {
-    HeaderComponent,
-    MainComponent,
-    SectionComponent,
-    FooterComponents,
-  },
-  
-  data(){
-    return {
-      fumetti: 
-        [{
+[{
         "thumb": "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX",
         "price": "$19.99",
         "series": "Action Comics",
@@ -100,18 +71,3 @@ export default {
         "type": "graphic novel"
     }
 ]
-      }
-    }
-  }
-
-
-</script>
-
-<style lang="scss">
-
-  @import './assets/style/mixins';
-  @import './assets/style/vars';
-  @import './assets/style/global';
-  @import './assets/style/utils';
-
-</style>

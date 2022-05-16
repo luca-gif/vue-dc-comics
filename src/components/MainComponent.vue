@@ -1,14 +1,25 @@
 <template>
   <main>
-    <div class="container">
-      ----> Content Goes Here!
+    <div class="container">    
+ 
+      <CardComponent :fumetto="fumettoItem" v-for="(fumettoItem, index) in elencoFumetti" :key="index"/>
+
     </div>
   </main>
 </template>
 
 <script>
+import CardComponent from "./CardComponent.vue";
 export default {
-  name: 'MainComponent'
+
+  name: 'MainComponent',
+  components: {
+    CardComponent
+  },
+  props: {
+    elencoFumetti: Object
+  },
+
 }
 </script>
 
@@ -23,7 +34,12 @@ main{
   @include center();
   background-color: black;
   color: #fff;
-  height: 100px;
+
+
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 </style>

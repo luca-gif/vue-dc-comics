@@ -1,4 +1,5 @@
 <template>
+
   <header>
     <div class="container">
       <div class="logo"><img src="../assets/img/dc-logo.png" alt="DC Logo"></div>
@@ -11,7 +12,6 @@
     </div>
     </div>
   </header>
-
 
 </template>
 
@@ -117,6 +117,7 @@ header{
     .borderBottom{
       height: 4px;
       background-color: $primary-color;
+      border-radius: 5px;
       width: 90%;
       margin: 0 auto;
     }
