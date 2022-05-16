@@ -1,12 +1,10 @@
 <template>
 <div>
 
-  <div class="jumbotron">
-
-  </div>
+  <div class="jumbotron"></div>
 
   <main>
-
+    
     <div class="btn-current">CURRENT SERIES</div>
 
     <div class="container">    

@@ -7,7 +7,9 @@
 
       </div>
 
+      <div class="text">
       <h3>{{fumetto.series}}</h3>
+      </div>
     
   </div>
 </template>
@@ -33,13 +35,12 @@ export default {
 }
 
 img{
-  width: 150px;
+  width: 90%;
 }
 
 .img-box{
   height: 150px;
   overflow: hidden;
-  padding: 0px;
 }
 
 h3{
@@ -47,7 +48,8 @@ h3{
   padding: 20px 0;
 }
 
-
-
+.text{
+  width: 90%;
+}
 
 </style>
