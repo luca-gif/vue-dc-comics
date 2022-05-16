@@ -73,9 +73,8 @@ main{
 
   .btn-load{
     background-color: $primary-color;
-    font-size: 18px;
     font-weight: bolder;
-    padding: 10px;
+    padding: 10px 40px;
     margin: 0 auto;
   }
 
