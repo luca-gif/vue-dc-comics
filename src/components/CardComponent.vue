@@ -1,7 +1,11 @@
 <template>
-  <div>
+  <div class="mini-wrapper">
+
+      <div class="img-box">
 
       <img :src="fumetto.thumb" :alt="fumetto.type">
+
+      </div>
 
       <h3>{{fumetto.series}}</h3>
     
@@ -24,9 +28,25 @@ export default {
 
 <style lang="scss" scoped>
 
-div{
+.mini-wrapper{
   width: calc(100% / 6);
 }
+
+img{
+  width: 150px;
+}
+
+.img-box{
+  height: 150px;
+  overflow: hidden;
+  padding: 0px;
+}
+
+h3{
+  font-size: 13px;
+  padding: 20px 0;
+}
+
 
 
 
